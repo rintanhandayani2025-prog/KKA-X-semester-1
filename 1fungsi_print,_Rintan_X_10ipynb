@@ -1,0 +1,508 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMs9ISl2/nAHzWZumWC0eXm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rintanhandayani2025-prog/KKA-X-semester-1/blob/main/1fungsi_print%2C_Rintan_X_10ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "usia=[16]\n",
+        "print(usia)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jMJl_SoT9pY6",
+        "outputId": "e8c9896a-3410-4b28-b4d5-0be3825debe0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[16]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama =\"Rintan handayani\"\n",
+        "print (nama)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MMvUVN_o6-yN",
+        "outputId": "105756ef-2e89-4647-da8a-b2cdc4179ac1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Rintan handayani\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "namaSaudara= \"Diki yaini saputra\"\n",
+        "print(namaSaudara)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IXAGmceI-1XV",
+        "outputId": "0fcccd51-6689-441e-9dc4-a3a522600c0c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Diki yaini saputra\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "matapelajaranfavorit= \"fisika dan ppkn\"\n",
+        "print(matapelajaranfavorit)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ApdJouXN_qe0",
+        "outputId": "669c9f57-561d-4fe4-c94d-bd2b7f10923d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "fisika dan ppkn\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"nama saudara\" + namaSaudara)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oaoM1oPHBTwF",
+        "outputId": "3087954a-c61a-422a-8fc6-3a82f9fc745b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama saudaraDiki yaini saputra\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"matapelajaranfavorit:\" + matapelajaranfavorit)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YxulMZioCS5K",
+        "outputId": "e7fca6c8-d9c6-40c2-8596-83c94f435a93"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "matapelajaranfavorit:fisika dan ppkn\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama_panggilan_siswa= \"Rintan\"\n",
+        "print(\"nama_panggilan_siswa_tersebut adalah\", nama_panggilan_siswa) #sudah ada sepasinya"
+      ],
+      "metadata": {
+        "id": "WXzq1cD21LJg",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "10068fb3-f525-4799-87e8-5b24bffd78d1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama_panggilan_siswa_tersebut adalah Rintan\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(f\"nama panggilan siswa tersebut adalah {nama_panggilan_siswa} loh! \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "et8Mq_8wAc0h",
+        "outputId": "944ac44c-ef79-42f8-a520-420cd69ef5d2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama panggilan siswa tersebut adalah Rintan loh! \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"nama:Rintan handayani\")\n",
+        "print(\"kelas:X.10\")\n",
+        "print(\"No absen:28\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "abgdq0XaEK_v",
+        "outputId": "eb7ade8d-ce60-464b-89ff-59a7f14e5551"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama:Rintan handayani\n",
+            "kelas:X.10\n",
+            "No absen:28\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"\"\"nama\\t\\t:rintan handani\\n\n",
+        "kelas\\t\\ t:X.1t:X.10\n",
+        "no absen\\t:28\"\"\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DudOh-5vFGA4",
+        "outputId": "7990cc8b-6897-4e2b-debd-bf1df6c10ad4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama\t\t:rintan handani\n",
+            "\n",
+            "kelas\t\t:X.10\n",
+            "no absen\t:28\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Hallo perkenalkan nama saya\", nama, \".usia saya\", usia, \" tahun. \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lRnbvlOm7b1c",
+        "outputId": "be96949e-a4a2-401f-9c40-5cc5820e0bea"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hallo perkenalkan nama saya Rintan handayani .usia saya [16]  tahun. \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"nama\\t\\t:Rintan Handayani\\nKelas:\\t\\tX10\\nAbsen\\t\\t:28\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "htfhuNHzHpRg",
+        "outputId": "15eca017-621d-4721-b367-e79e1805c529"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama\t\t:Rintan Handayani\n",
+            "Kelas\t\tX10\n",
+            "Absen\t\t:28\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Bu shinta berkata, \\\"makan sosis so, nice\\\"\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8aTljnos4yAl",
+        "outputId": "75634d29-f786-4cbd-cbc2-695bcc8a8781"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bu shinta berkata, \"makan sosis so, nice\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Bu shinta berkata, \"makan sosis so, nice\"')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lQeVQ7zJ5DoJ",
+        "outputId": "a3e23969-3507-4b11-fae7-884536abf618"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bu shinta berkata, \"makan sosis so, nice\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (\"simpan file di local disk D.\\\\MAN DEMAK\\\\KKA\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "e0966QUy6zhW",
+        "outputId": "1f406be7-1d16-4dd4-938b-f3b3cd6583ba"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "simpan file di local disk D.\\MAN DEMAK\\KKA\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama_siswa_1= \"dhea\"\n",
+        "print(nama_siswa_1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fNa3ORVEHRZR",
+        "outputId": "b9f94d6f-8fb9-4117-dee7-b199112f367d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dhea\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama_siswa_2= \"tiwi\"\n",
+        "print(nama_siswa_2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PsykFflPIEiP",
+        "outputId": "a6f043f2-53e1-49cc-d18e-e1c801537995"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "tiwi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(nama_siswa_1,nama_siswa_2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wNXme06iIL-4",
+        "outputId": "ad8730d4-18ec-4fe3-fa24-e763e0e5a4e8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dhea tiwi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(nama_siswa_1, nama_siswa_2, sep=\"-\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "803myBSWIzXb",
+        "outputId": "f7751d7d-c435-42e5-e5c6-d2638111d478"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dhea-tiwi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(nama_siswa_1, nama_siswa_2, nama_siswa_1, sep=\"*\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qaSQHD9WKMl6",
+        "outputId": "ce80d332-b51a-4536-c1d1-476e906b311c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dhea*tiwi*dhea\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
